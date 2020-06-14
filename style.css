@@ -76,69 +76,11 @@ font-weight: bold;
     margin:0;
     padding: 0;
   }
-
-  .homecontainer {
-    max-width: 100%;
-    padding: 0;
-    margin:0;
-  }
-
-  .homecontainer h2 {
-    padding-left: 30px;
-  }
-
-  .homemajorcard {
-    width:auto;
-    grid-template-columns: 1fr;
-    padding: 25px;
-    padding-left: 200px;
-    align-content: center;
-  }
-  
-  .homecard {
-    width:250px;
-  }
-
-  #islider {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    height:300px;
-    border-bottom:5px solid #113e65;
-  }
-
-  #islides figure img {
-    width: 100%;
-    position: relative;
-    top: 20%;
-    transform: translateY(-50%);
-  }
-
-  #islides figure figcaption {
-    position: absolute;
-    bottom: 0;
-    padding: 2em 0;
-    text-align: center;
-    width: inherit;
-    color: #fdcb59;
-    font-size: 4vmax;
-
-  }
-
-  .index2 {
-    width:auto;
-    grid-template-columns: 1fr;
-    padding-left:0;
-    grid-gap: 0;
-  }
-
-  .index2a {
-    width:auto;
-    padding-left:15px;
-    padding-right: 15px;
-    margin:15px;
-    text-align: center;
-  }
+  .card img{
+  background-size: cover;
+  width:50%;
+}
+ 
 }
 
 @media (max-width: 500px) {
@@ -148,67 +90,12 @@ font-weight: bold;
     margin:0;
     padding: 0;
   }
-
-  .homecontainer {
-    max-width: 100%;
-    padding: 0;
-    margin:0;
-  }
-
-  .homecontainer h2 {
-    padding-left: 15px;
-  }
-
-  .homemajorcard {
-    width:auto;
-    grid-template-columns: 1fr;
-    padding: 25px;
-    align-content: center;
-  }
   
-  .homecard {
-    width:250px;
-  }
+  .card img{
+  background-size: cover;
+  width:50%;
+}
 
-  #islider {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    height:140px;
-    border-bottom:5px solid #113e65;
-  }
-
-  #islides figure img {
-    width: 100%;
-    position: relative;
-    top: 20%;
-    transform: translateY(-50%);
-  }
-
-  #islides figure figcaption {
-    position: absolute;
-    bottom: 0;
-    padding: 2em 0;
-    text-align: center;
-    width: inherit;
-    color: #fdcb59;
-    font-size: 4vmax;
-
-  }
-
-  .index2 {
-    width:auto;
-    grid-template-columns: 1fr;
-    padding-left:0;
-    grid-gap: 0;
-  }
-
-  .index2a {
-    width:auto;
-    padding-left:15px;
-    padding-right: 15px;
-    margin:15px;
-  }
 }
 
 
